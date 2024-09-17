@@ -11,15 +11,22 @@
         for($i=0; $i<=5; $i++){
             $numeros_aleatorios[$i] =  rand(0, 99);
         }
-        sort($numeros_aleatorios);
+        echo "Array desordenado: <br>"
         foreach($numeros_aleatorios as $numero){
             echo "$numero <br/>";
         }
+
+        sort($numeros_aleatorios);
+        echo "Array ordenado: <br>"
+        foreach($numeros_aleatorios as $numero){
+            echo "$numero <br/>";
+        }
+
     ?>
 
     <?php 
-        $booleano = in_array(2, $numeros_aleatorios);
-        if ($booleano) echo "<br>El 2 está en los números aleatorios";     
+        //$booleano = in_array(2, $numeros_aleatorios);
+        if (in_array(2, $numeros_aleatorios)) echo "<br>El 2 está en los números aleatorios";     
         else echo "<br>El 2 no está en los números aleatorios";
     ?>
 
