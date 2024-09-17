@@ -1,7 +1,7 @@
-###### Ejercicios básicos de PHP
-######### info_basico.php
+## Ejercicios básicos de PHP
+### info_basico.php
     Este ejercicio almacena mi año de nacimiento y nombre y los enseña por pantalla.
-######### curriculum.php
+### curriculum.php
     Este ejercicio crea un curriculum con variables variables mediante el bilingüismo.
 ### area_circulo.php
     Este ejercicio muestra por pantalla el radio de un circulo mediante el uso de la variable constante PI.
@@ -14,7 +14,7 @@
 ### contador2.php
     Este ejercicio es una modificación del anterior que incluye un h1 y dos parrafos como elementos html.
 
-###### Ejercicios básicos de arrays de PHP
+## Ejercicios básicos de arrays de PHP
 ### Array1.php
     Este ejercicio muestra un array 50 números aleatorios del 0 y el 99, de forma ordenada y desordenada y calculando el mayor, el menor y la media.
 ### ArrayAsociativo.php
